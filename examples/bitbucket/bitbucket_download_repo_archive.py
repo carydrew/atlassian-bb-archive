@@ -9,4 +9,5 @@ with open("archive.tgz", mode="wb") as dest_fd:
         repository_slug="example-repository",
         at="master",
         format="tar.gz",
+        dest_fd=dest_fd,
     )
